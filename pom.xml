@@ -7,7 +7,7 @@
 	<groupId>net.slipp</groupId>
 	<artifactId>4th-cycle-02</artifactId>
 	<version>1.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>4th-cycle-02</name>
 	<description>SliPP QnA</description>
