@@ -34,16 +34,22 @@ public class User {
 		this.email = email;
 	}
 
-	public Long getId() {
-		return id;
+	public boolean matchPassword(String newPassword) {
+		if (newPassword == null) {
+			return false;
+		}
+		return newPassword.equals(password);
+	}
+
+	public boolean matchId(Long newId) {
+		if (newId == null) {
+			return false;
+		}
+		return newId.equals(id);
 	}
 	
 	public String getUserId() {
 		return userId;
-	}
-	
-	public String getPassword() {
-		return password;
 	}
 	
 	public String getName() {
