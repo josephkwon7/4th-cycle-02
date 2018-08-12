@@ -1,17 +1,18 @@
-# 2nd-cycle-02
+# 4th-cycle-02
 Lab projet for lecture Spring-Boot, JPA by JeSung Park
 
-## 반복주기 2 학습 목표
-* 동적인 HTML 웹 페이지 개발
-* Spring MVC의 Model, View, Controller 기반 개발
+## 반복주기 4 학습목표
+* 로그인 기능 구현을 통한 쿠키와 세션에 대한 대략적인 이해
+* 로그인 사용자에 대한 접근 제한
 
-## 2-1. Controller 추가 및 mustache에 인자 전달(동적 페이지)
-** spring-boot 2.0 프로젝트일 경우 페이지 표시 안되는 문제 -> spring.mustache.suffix=.html 등록 필요. default가 .mustache임.
+## 4-1. 로그인 기능 구현을
 
-## 2-2. 회원가입 페이지 구현
+## 4-2. 로그인 상태에 따른 메뉴 처리 및 로그 아웃
 
-## 2-3. 사용자 목록 페이지 구현
+## 4-3. 로그인 사용자에 한해 자신의 정보를 수정하도록 수정
 
-## 2-4. 원격 서버에 소스 코드 배포
+## 4-4. 질문하기, 질문목록 기능 구현
 
-## 2-5. 이전 상태로 원복 후 반복 구현
+## 4-5. 원격 서버에 소스 코드 배포
+
+## 연습3. ATOM 에디터를 활용한 HTML 코딩
