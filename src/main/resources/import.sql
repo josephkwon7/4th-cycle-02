@@ -1,0 +1,1 @@
+INSERT INTO USER (ID, USER_ID, PASSWORD, NAME, EMAIL) VALUES (1, 'javajigi', 'test', '자바지기', 'javajigi@gmail.com');
